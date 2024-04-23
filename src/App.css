@@ -1,13 +1,24 @@
-img {
+.profile-img {
   height: 250px;
   width: 250px;
   border-radius: 50%;
 }
 
+.title-glow{
+  color: #FF914D;
+  text-shadow: 0px 0px 8px red,
+  0px 0px 12px red,
+  0px 0px 16px red
+}
+
+.title-font{
+  font-family: "Caveat", cursive;
+  font-weight: 900;
+}
 
 #download{
-  background-color: black;
-  color: white;
+  background-color: rebeccapurple;
+  color: orange;
   text-decoration: none;
   padding: 10px 30px;
   border-radius: 8px;
@@ -48,4 +59,36 @@ footer{
 
 .a-hover:hover{
   color:coral;
+  text-shadow: 0px 0px 8px pink,
+  0px 0px 12px pink,
+  0px 0px 16px pink
+}
+
+.skill-title{
+  animation: skill 5s infinite;
+}
+
+@keyframes skill {
+  0%{
+    color:white;
+    text-shadow: 0px 0px 8px black,
+    0px 0px 12px black,
+    0px 0px 16px black
+  }
+  50%{
+    color: #FF914D;
+    text-shadow: 0px 0px 8px red,
+    0px 0px 12px red,
+    0px 0px 16px red
+  }
+  100%{
+    color:rgb(255, 249, 80);
+    text-shadow: 0px 0px 8px pink,
+    0px 0px 12px pink,
+    0px 0px 16px pink
+  }
+}
+
+.zoom-img img:hover{
+  transform: scale(1.3); 
 }
