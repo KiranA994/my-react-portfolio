@@ -32,7 +32,7 @@ function App() {
               Hi, My name is Kiran A. I am a passionate Frontend Developer with 2 year of experience in angular with successful track record in developing innovative web designs and features. Possesses solid knowledge of HTML, CSS, JavaScript and Bootstrap with ability to quickly learn new technologies. Demonstrated success in identifying and resolving complex code issues.
           </p>
           <div className='d-flex justify-content-left align-items-center'>
-            <a href="src\assets\Kiran_A_Resume.pdf" download id="download">DOWNLOAD CV</a>
+            <a href="./Kiran_A_Resume.pdf" download id="download">DOWNLOAD CV</a>
           </div>
         </div>
         <div className="col-md-2"></div>
